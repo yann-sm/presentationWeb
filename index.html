@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Ma page</title>
+</head>
+
+<script type="text/javascript">
+	//Fonction du menu Open
+	function openNav(){
+		document.getElementById('mySidenav').style.width="250px";
+	}
+	function closeNav(){
+		document.getElementById("mySidenav").style.width="0";
+	}
+
+</script>
+
+<body>
+<div id="container">	
+	<section id="section1">
+
+		<div id="br"></div>
+
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+			<p><a href="#p">Presentation</a></p>
+			<p><a href="#c">Compétence</a></p>
+			<p><a href="#ps">Projets</a></p>
+			<p><a href="#ct">Contact</a></p>	
+		</div>
+
+		<span id="open" style="font-size: 25px; cursor:pointer"onclick="openNav()">&#9776;Open</span>
+
+		<div id="br"></div>
+	</section>
+	<div id="bloc1">
+		<p><img src="Legacy-code.jpg" width="100%" height="110px" style="margin-left: -20px; box-shadow: 1px 1px 6px  darkblue;"></p>
+	</div>
+
+	<div id="bloc2">
+		<p>-- -- -- _ -</p>
+
+	</div>
+<br>
+	<section class="cap">
+		<div class="tr">
+			<div class="top"><p style="color: yellow; font-size: 40px; margin-left: 15px; margin-top: 28px;">CSS</p></div>
+			<div class="front"><p style="color: red; font-size: 30px; margin-left: 5px; margin-top: 28px;">HTML</p></div>
+			<div class="left"><p style="color: white; font-size: 40px; margin-left: 15px; margin-top: 28px;">PHP</p></div>
+			<div class="right"><p style="color: blue; font-size: 40px; margin-left: 10px; margin-top: 20px;">SQL</p></div>
+			<div class="back"><p style="color: orange; font-size: 40px; margin-left: 5px; margin-top: 20px;">Java</p></div>
+			<div class="bottom"><p style="color: green; font-size: 45px; margin-left: 25px; margin-top: 20px;">JS</p></div>
+		</div>
+	</section>
+<br>
+	<h3><a id="p">Présentation</a></h3>
+		<p>Ecrire un paragraphe de présentation ...</p>
+<br>
+	<h3><a id="c">Compétence</a></h3>
+		<p>HTML5<div id="myBar"><div id="progress"></div></div></p>
+		<p>CSS3<div id="myBar"><div id="progress1"></div></div></p>
+		<p>JAVASCRIPT<div id="myBar"><div id="progress2"></div></div></p>
+		<p>PHP<div id="myBar"><div id="progress3"></div></div></p>
+		<p>SQL<div id="myBar"><div id="progress4"></div></div></p>
+		<p>JAVA<div id="myBar"><div id="progress5"></div></div></p>
+		<p>PYTHON<div id="myBar"><div id="progress6"></div></div></p>
+		<p>GHITUB<div id="myBar"><div id="progress7"></div></div></p>
+<br>
+	<h3><a id="ps">Projets</a></h3>
+		<section id="projets">
+			<div><strong>Pojets 1</strong>
+				<p><a href="Integration Maquette/maquette.html">Intégration de maquette</a></p>
+				<p>Décrire le projet ...</p>
+			</div>
+
+			<div></div>
+
+			<div><strong>Projets 2</strong>
+				<p><a href="blog/partage.html">Blog</a></p>
+				<p>Décrire le projet ...</p>
+			</div>
+			
+		</section>
+<br>
+	<h3><a id="ct">Contact</a></h3>
+		<p>Nom Prénom :</p>
+		<p>Adresse Mail :  </p>	
+
+</div>
+
+
+
+</body>
+</html>
